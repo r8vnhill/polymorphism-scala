@@ -4,12 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048ebf1-b315-4283-bd3d-6984d1d3a642" name="Changes" comment="" />
+    <list default="true" id="d048ebf1-b315-4283-bd3d-6984d1d3a642" name="Changes" comment="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0.">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/ArrayList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/CollectionClassifier.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/Display.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/List.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/Point.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/Triangle.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Cell.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/subtyping/B.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "r8vnhill"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/r8vnhill/polymorphism-scala.git",
+    "accountId": "5efb20af-a222-49af-82c4-52d66ed87ffa"
+  }
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -25,11 +54,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\Teaching\polymorphism-scala" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -46,11 +86,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715103608152</updated>
-      <workItem from="1715103609249" duration="8000" />
+      <workItem from="1715103609249" duration="2261000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0.">
+      <option name="closed" value="true" />
+      <created>1715103870203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715103870203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0." />
   </component>
 </project>
