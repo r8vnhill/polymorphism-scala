@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048ebf1-b315-4283-bd3d-6984d1d3a642" name="Changes" comment="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0.">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/ArrayList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/CollectionClassifier.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/Display.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/List.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/Point.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/adhoc/Triangle.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Cell.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/subtyping/B.scala" afterDir="false" />
+    <list default="true" id="d048ebf1-b315-4283-bd3d-6984d1d3a642" name="Changes" comment="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks.">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Comparable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Crtp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Foo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/InnerNode.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Leaf.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/None.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Option.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Pair.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Person.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Process.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Some.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Tree.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/subtyping/ImplicitSubtyping.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/parametric/Cell.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parametric/Cell.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,44 +34,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "r8vnhill"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;r8vnhill&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/r8vnhill/polymorphism-scala.git",
-    "accountId": "5efb20af-a222-49af-82c4-52d66ed87ffa"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/r8vnhill/polymorphism-scala.git&quot;,
+    &quot;accountId&quot;: &quot;5efb20af-a222-49af-82c4-52d66ed87ffa&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2g9IvE1zdiOdB37pIGcBYiHngDn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Code\Teaching\polymorphism-scala" />
@@ -73,8 +80,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.21" />
-        <option value="bundled-js-predefined-1d06a55b98c1-3d8cd37a7330-JavaScript-IU-241.15989.21" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.2" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.2" />
       </set>
     </attachedChunks>
   </component>
@@ -87,6 +94,9 @@
       <option name="presentableId" value="Default" />
       <updated>1715103608152</updated>
       <workItem from="1715103609249" duration="2261000" />
+      <workItem from="1715111971829" duration="3928000" />
+      <workItem from="1715117996756" duration="844000" />
+      <workItem from="1715189826525" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0.">
       <option name="closed" value="true" />
@@ -96,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715103870203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks.">
+      <option name="closed" value="true" />
+      <created>1715112832466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715112832467</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +124,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0." />
+    <MESSAGE value="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks." />
   </component>
 </project>
