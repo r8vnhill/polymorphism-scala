@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d048ebf1-b315-4283-bd3d-6984d1d3a642" name="Changes" comment="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks.">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Comparable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Crtp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Foo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/InnerNode.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Leaf.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/None.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Option.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Pair.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Person.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Process.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Some.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/parametric/Tree.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/subtyping/ImplicitSubtyping.scala" afterDir="false" />
+    <list default="true" id="d048ebf1-b315-4283-bd3d-6984d1d3a642" name="Changes" comment="Added new classes and traits in the 'parametric' package&#10;&#10;This commit introduces new class and trait definitions in the `parametric` package. The main changes include the addition of the `Option`, `Some`, `None`, `Tree`, `InnerNode`, `Leaf`, `Comparable`, and `Foo` classes and traits. These changes extend the functionality and structure of the project's Scala files. Changes were also made to the `Cell` class and the project workspace configurations were updated.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/parametric/Cell.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/parametric/Cell.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +83,7 @@
       <workItem from="1715103609249" duration="2261000" />
       <workItem from="1715111971829" duration="3928000" />
       <workItem from="1715117996756" duration="844000" />
-      <workItem from="1715189826525" duration="372000" />
+      <workItem from="1715189826525" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0.">
       <option name="closed" value="true" />
@@ -114,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715112832467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added new classes and traits in the 'parametric' package&#10;&#10;This commit introduces new class and trait definitions in the `parametric` package. The main changes include the addition of the `Option`, `Some`, `None`, `Tree`, `InnerNode`, `Leaf`, `Comparable`, and `Foo` classes and traits. These changes extend the functionality and structure of the project's Scala files. Changes were also made to the `Cell` class and the project workspace configurations were updated.">
+      <option name="closed" value="true" />
+      <created>1715190612082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715190612082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +120,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Added new files and configurations for Scala project&#10;&#10;Created several new files and configurations, including Git ignore file, sbt configuration files, IntelliJ IDEA settings files, new Scala class A, and build properties. Also set up the Scala version used in the project to 1.10.0." />
     <MESSAGE value="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated workspace configurations and added new Scala files&#10;&#10;The commit includes updates to IntelliJ IDEA project configuration files (.idea/workspace.xml, .idea/sbt.xml, etc.) as well as file additions pertaining to Scala classes and traits related to the 'adhoc' and 'parametric' packages. Main features of this commit involve the introduction of class and object definitions in new Scala source files, changes in Scala sbt settings, and the addition of new Git settings and tasks." />
+    <MESSAGE value="Added new classes and traits in the 'parametric' package&#10;&#10;This commit introduces new class and trait definitions in the `parametric` package. The main changes include the addition of the `Option`, `Some`, `None`, `Tree`, `InnerNode`, `Leaf`, `Comparable`, and `Foo` classes and traits. These changes extend the functionality and structure of the project's Scala files. Changes were also made to the `Cell` class and the project workspace configurations were updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new classes and traits in the 'parametric' package&#10;&#10;This commit introduces new class and trait definitions in the `parametric` package. The main changes include the addition of the `Option`, `Some`, `None`, `Tree`, `InnerNode`, `Leaf`, `Comparable`, and `Foo` classes and traits. These changes extend the functionality and structure of the project's Scala files. Changes were also made to the `Cell` class and the project workspace configurations were updated." />
   </component>
 </project>
